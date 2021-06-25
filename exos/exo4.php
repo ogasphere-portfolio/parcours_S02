@@ -15,6 +15,14 @@ ob_start();
 
 // A toi de boucler
 
+for ($chiffre=1; $chiffre<=15 ; $chiffre++) { 
+ echo $chiffre ;
+}
+// Temps pour faire l'exo4 : 10mn    Cumul : 45mn
+
+
+
+// On supprime les espaces dans la chaine de caractéres $maChaine
 
 /*
  * Tests

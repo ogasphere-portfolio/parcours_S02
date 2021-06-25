@@ -25,6 +25,14 @@ require_once '../inc/functions.php';
 
  // A toi de jouer pour l'étape a)
 
+// On initialise le tableau $characters
+ $characters= [
+    'Stan',
+    'Kyle',
+    'Kenny',
+
+];
+ 
 
 /*
  * Tests du tableau avec uniquement Stan, Kyle et Kenny
@@ -35,6 +43,9 @@ check('3a');
 // A toi de jouer pour l'étape b)
 
 
+// on ajoute 'Cartman' au tableau $characters
+$characters[]='Cartman';
+
 /*
  * Tests du tableau avec Stan, Kyle, Kenny et désormais Cartman
  * Pas touche !
@@ -42,6 +53,12 @@ check('3a');
 check('3b');
 
 // A toi de jouer pour le bonus
+
+// On supprime 'Kenny' du tableau $characters en utilisant l'index correspondant : 2
+unset($characters[2]);
+
+// Temps pour faire l'exo3 : 9mn   Cumul 35mn
+
 
 
 /*

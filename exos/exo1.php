@@ -27,6 +27,27 @@ require_once '../inc/functions.php';
  */
 
 
+ //On initialise les variables 
+$nb1=1;
+$nb2=1;
+
+// On appelle la fonction addtion avec deux arguments, le troisiéme etant optionnel
+$somme= addition($nb1,$nb2);
+
+// On appelle la fonction addtion avec trois arguments
+$somme= addition($nb1,$nb2,$nb3);
+
+// Fonction permettant d'additionner 3 nombres, dont le dernier optionnel
+// recoit en paramétres $nb1, $nb2 et $nb3
+function addition($nb1,$nb2,$nb3=0) {
+
+    return $nb1+$nb2+$nb3;
+
+}
+
+// Temps pour faire l'ex01 15mn
+
+
 
 
 

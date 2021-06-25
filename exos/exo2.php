@@ -25,7 +25,41 @@ require_once '../inc/functions.php';
  *  prenant un argument : la note sur 20
  *  et retournant la note en lettre (de A à F, en majuscule)
  */
+$note=12;
+function convertNoteToLetter($note){
+  
+   // si la note est comprise entre 0 et 3 on renverra "F" comme valeur de retour 
+  if ($note>=0 & $note<=3) {
+    $noteEnLettre = "F";
+  }
+  
+  // si la note est comprise entre 4 et 6 on renverra "E" comme valeur de retour 
+  if ($note>=4 & $note<=6) {
+    $noteEnLettre = "E";
+  }
 
+  // si la note est comprise entre 7 et 9 on renverra "D" comme valeur de retour 
+  if ($note>=7 & $note<=9) {
+    $noteEnLettre = "D";
+  }
+
+  // si la note est comprise entre 10 et 12 on renverra "C" comme valeur de retour 
+  if ($note>=10 & $note<=12) {
+    $noteEnLettre = "C";
+  }
+ 
+  // si la note est comprise entre 13 et 15 on renverra "B" comme valeur de retour  
+  if ($note>=13 & $note<=15) {
+    $noteEnLettre = "B";
+  }
+
+  // si la note est comprise entre 16 et 20 on renverra "A" comme valeur de retour 
+  if ($note>=16 & $note<=20) {
+    $noteEnLettre = "A";
+  }
+  return $noteEnLettre;
+}
+//Temps pour faire l'exo2 11mn    Cumul 26mn
 
 
 /*
