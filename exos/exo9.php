@@ -16,9 +16,15 @@ require_once '../inc/functions.php';
  */
 
 
+// Url : exo9.php?game=Télémagouille&player2=Véronique&player1=Mamdou&step1=ok
+
+$jeu = $_GET['game'] ;
+$premierJoueur = $_GET['player1'];
+$secondJoueur = $_GET['player2'];
 
 
 
+// temps pour faire l'exo9 : 7mn   Cumul 1h37
 
 /*
  * Tests

@@ -35,12 +35,49 @@ require_once '../inc/algo.php';
 // var_dump($algo);
 // echo '</pre>';
 
+
+
 // On est sympa, on te crée le tableau
 $instructionList = [];
 // Puis on ajoute pour toi la première "action"
-$instructionList[] = $algo[8];
+$instructionList[] = $algo[8]; //"définir le nombre à 42",
 
 // A toi d'écrire la suite...
+
+$instructionList[] = $algo[5];  // on récupère le nombre saisi par l'utilisateur en paramètre d'URL
+
+$instructionList[] = $algo[1]; // si le nombre saisi est plus petit que le nombre attendu
+
+$instructionList[] = $algo[6]; // alors afficher le message : 'Le nombre saisi est trop petit 
+
+$instructionList[] = $algo[0]; // sinon
+
+$instructionList[] = $algo[3]; // si le nombre saisi est plus grand que le nombre attendu
+
+$instructionList[] = $algo[4]; // alors afficher le message : 'Le nombre saisi est trop grand 
+
+$instructionList[] = $algo[7]; // sinon
+
+$instructionList[] = $algo[2]; // afficher le message de victoire
+
+
+// Temps pour faire l'exo 10 : 14 mn     Cumul : 1h51
+
+
+
+// $algo = [
+//     "sinon",
+//     "si le nombre saisi est plus petit que le nombre attendu",
+//     "afficher le message de victoire",
+//     "si le nombre saisi est plus grand que le nombre attendu",
+//     "alors afficher le message : 'Le nombre saisi est trop grand !'",
+//     "on récupère le nombre saisi par l'utilisateur en paramètre d'URL",
+//     "alors afficher le message : 'Le nombre saisi est trop petit !'",
+//     "sinon",
+//     "définir le nombre à 42",
+// ];
+
+
 
 /*
  * Tests
