@@ -29,6 +29,30 @@ ob_start();
 
 
 
+
+
+
+// On boucle sur le tableau $bartPunishment
+foreach ($bartPunishment as $key => $value) {
+    
+    if (strstr($key, 'sentence')) {    // On cherche si la clé du tableau $bartPunishment contient la chaine 'sentence'
+        // si la clé contient la chaine 'sentence' on renvoie une phrase
+        echo $value;
+    } else {
+        //  Sinon on renvoie une image car si la clé du tableau $bartPunishment 
+        //ne contient pas la chaine 'sentence' elle contient forcement 'picture'
+        echo '<img src="'.$value.'" alt="">' ;
+    }
+}// Fin de la boucle
+
+
+// Temps pour faire l'exo8 22 mn       Cumul : 1h30
+
+
+
+
+
+
 // ------ Aide ------
 // Si une chaine de caractère $string contient le mot "sentence"
 // -- AVEC strstr --

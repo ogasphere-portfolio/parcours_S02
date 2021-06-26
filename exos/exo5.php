@@ -18,6 +18,22 @@ require_once '../inc/bart.php'; // fichier déclarant la variable $bartPunishmen
 // A toi de jouer
 
 
+// On stocke la premiere phrase du tableau dans $sentence1
+$sentence1=$bartPunishment[1];
+
+// On stocke la  phrase à l'index 4 du tableau dans $sentence4
+$sentence4=$bartPunishment[4];
+
+
+
+// On recupere l'index de l'avant derniere ligne
+$MonIndex= count($bartPunishment)-1;
+
+// On stocke l'avant derniere phrase du tableau dans $sentenceX
+$sentenceX=$bartPunishment[$MonIndex];
+
+
+// Temps pour faire l'exo5 : 8mn     Cumul : 53 mn
 
 
 /*

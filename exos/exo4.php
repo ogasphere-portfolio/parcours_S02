@@ -18,6 +18,7 @@ ob_start();
 for ($chiffre=1; $chiffre<=15 ; $chiffre++) { 
  echo $chiffre ;
 }
+
 // Temps pour faire l'exo4 : 10mn    Cumul : 45mn
 
 
