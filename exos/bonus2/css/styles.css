@@ -1,3 +1,133 @@
- /* Mets ton CSS ici */ 
+/* Mets ton CSS ici */
+
+/* CSS pour l'etape 1 */
+
+.etape1 {
+  display: flex;
+}
+
+.etape1-graph {
+  display: flex;
+  flex-direction: column;
+}
+
+.etape1-identity {
+  padding: 17%;
+}
+
+.etape1-text {
+  text-align: left;
+}
+
+/* CSS pour l'etape 1 */
+
+.etape2 {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.post {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: space-between;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
 
 
+.etape2-graph {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 0 1;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: center;
+  
+
+}
+
+.etape2-image-container{
+  
+  height: 490px;
+  width: 350px;
+  margin: auto;
+  text-align: center;
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: center;
+  
+  
+}
+
+.etape2-graph-image{
+    
+    display: none;
+   
+   
+}
+
+.etape2-graph-longName{
+  padding-bottom: 2em;
+  padding-top: 1em;
+}
+.etape2-identity {
+  
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: flex-end;
+
+
+  }
+
+
+.etape2-text {
+  font-size: 0.8em;
+}
