@@ -30,5 +30,4 @@ $catch_phrase=$characters['Stan']['catch_phrase'];
 
 $img1=$characters['Stan']['img1'];
 
-$img2=$characters['Stan']['img2'];
 
