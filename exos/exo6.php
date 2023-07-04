@@ -24,7 +24,7 @@ ob_start();
 
 
 // Boucle pour parcourir le tableau
-for ($index=0; $index <=count($bartPunishment); $index++) { 
+for ($index=1; $index <=count($bartPunishment); $index++) { 
   
     // On affiche les phrases du tableau
     echo $bartPunishment[$index].'<br>';
